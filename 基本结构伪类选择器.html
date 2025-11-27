@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			:root {
+				color: blue;
+			}
+
+			body*:not(h2) {
+				color: red;
+			}
+
+			li:empty {
+				background-color: red;
+			}
+
+			:target {
+				background-color: yellow;
+			}
+
+			.bl {
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>编程语言</h1>
+		<ul>
+			<li><a href="#news1">python</a></li>
+			<li><a href="#news2">c++</a></li>
+			<li><a href="news3">java</a></li>
+			<li></li>
+		</ul>
+		<div class="bl">单击上面的链接，来查看效果</div>
+		<p id="news1">
+			Python，是一种广泛使用的解释型、高级和通用的编程语言。Python支持多种编程范型，包括结构化、过程式、反射式、面向对象和函数式编程。它拥有动态类型系统和垃圾回收功能，能够自动管理内存使用，并且其本身拥有一个巨大而广泛的标准库。
+		</p>
+		<p id="news2">C++是一种被广泛使用的计算机程序设计语言。它是一种通用程序设计语言，支持多重编程范式，例如过程化程序设计、面向对象程序设计、泛型程序设计和函数式程序设计等。
+			比雅尼·斯特劳斯特鲁普博士在贝尔实验室工作期间在20世纪80年代发明并实现了C++。</p>
+		<p id="news3">Java是一种广泛使用的计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。</p>
+	</body>
+</html>

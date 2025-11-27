@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
+body {
+	font-family: "微软软黑";
+	background: #fdfdfd;
+}
+
+header {
+	width: 55.625rem;
+	height: 5rem;
+	margin: 0 auto;
+	padding-top: 0.625rem;
+}
+
+nav {
+	width: 55.625rem;
+	height: 31.25rem;
+	background: url(../img/bg.gif)no-repeat;
+	margin: 0 auto;
+	padding-top: 0.625rem;
+}
+
+.nav {
+	width: 53rem;
+	height: 2.875rem;
+	margin: 0 auto;
+	padding: 2.5rem 0 0 7.6875rem;
+}
+
+.nav span {
+	color: #685649;
+	font-size: 1rem;
+	padding: 0 1.875rem;
+}
+
+.nav {
+	margin-right: 15rem;
+}
+
+#news {
+	width: 980px;
+	height: 500px;
+	margin: 18px auto;
+}
+
+.newsTitle {
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 10px;
+	padding: 30px 0px;
+	color: #685649;
+}
+
+.newsTitle::before,
+.newsTitle::after {
+	content: "";
+	display: inline-block;
+	width: 300px;
+	height: 3px;
+	background-color: #685649;
+	margin: 10px;
+}
+
+.news_con {
+	width: 294px;
+	height: 256px;
+	float: left;
+	margin-left: 29px;
+}
+
+.news_con .one {
+	width: 284px;
+	height: 80px;
+	padding-left: 10px;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.news_con .two{
+	width: 284px;
+	height: 80px;
+	line-height: 20px;
+	padding: 10px 0 0 10px;
+	font-size: 12px;
+	color: #bbb;
+	border-top: 1px solid #ddd;
+}
+.news_con .shadow{
+	width: 12px;
+	height: 5px;
+	background: url(../img/yinying.jpg) no-repeat;
+}
+#exhibition{
+	width: 61.25rem;
+	height: 18.25rem;
+	background: url(../img/xinshang.jpg) no-repeat;
+	margin: 2.5rem auto;
+	padding-top: 10.625rem;
+}
+#exhibition .pic{
+	width: 57.25rem;
+	height: 16.25rem;
+	margin: 0 auto;
+}
+#exhibition .pic img{
+	margin-left: 3.5rem;
+}
+footer{
+	width: 100%;
+	height: 5rem;
+	background: url(../img/footer_bg.jpg)repeat-x;
+	color: #fff;
+	text-align: center;
+	line-height: 5rem;
+}
+#tree{
+	position: fixed;
+	right: 10%;
+	top: -2%;
+}

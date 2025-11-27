@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			li:first-child {
+				text-decoration: underline;
+				/*子元素伪类，第一个元素*/
+			}
+
+			li:last-child {
+				text-decoration: line-through;
+				/*子元素伪类，倒数第一个元素*/
+			}
+
+			li:nth-child(2n): {
+				background-color: #FF0000;
+				/*子元素伪类，偶数子元素*/
+			}
+
+			li:nth-child(2n+1) {
+				background-color: #EEEEEE;
+				/*子元素伪类，奇数子元素*/
+			}
+
+			li:only-child {
+				background-color: #FFFF00;
+				/*子元素伪类，这个元素中的唯一一个子元素*/
+			}
+
+			h2:nth-of-type(1) {
+				color: red;
+				/*子元素伪类，第一个同级兄弟元素h2*/
+			}
+
+			h2:nth-last-of-type(2) {
+				color: green;
+				/*子元素伪类，倒数第二个同级兄弟元素h2*/
+			}
+		</style>
+	</head>
+	<body>
+		<section>
+			<h2>编程语言</h2>
+			<ul>
+				<li>HTML</li>
+				<li>C++</li>
+				<li>C</li>
+				<li>Java</li>
+				<li>Go</li>
+				<li>Python</li>
+			</ul>
+			<h2>笔记软件</h2>
+			<ul>
+				<li>OneNote</li>
+				<li>Notion</li>
+				<li>Obsidian</li>
+			</ul>
+			<h2>这里什么也没有</h2>
+		</section>
+	</body>
+</html>
