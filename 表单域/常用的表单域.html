@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<form action="" method="post">
+			<div>
+				<label for="name">姓名：</label>
+				<input type="text" id="name" name="user_name" />
+			</div>
+			<div>
+				<label for="email">邮箱：</label>
+				<input type="email" id="emai" name="user_email" />
+			</div>
+			<div>
+				<label for="gender">性别：</label>
+				<input type="radio" id="male" name="user_gender" value="male" />
+				<label for="male">男</label>
+				<input type="radio" id="female" name="user_gender" value="female" checked />
+				<label for="female">女</label>
+			</div>
+			<div>
+				<label for="hobby">爱好：</label>
+				<input type="checkbox" id="music" name="user_hobby" value="music" />
+				<label for="music">音乐</label>
+				<input type="checkbox" id="reading" name="user_hobby" value="reading" checked />
+				<label for="reading">阅读</label>
+				<input type="checkbox" id="sports" name="user_hobby" value="sports" />
+				<label for="sports">运动</label>
+			</div>
+			<div>
+				<label for="city">城市</label>
+				<select name="user_city" id="city">
+				<option value="beijing">北京</option>
+				<option value="shanghai">上海</option>
+				<option value="guangzhou">广州</option>
+				<option value="shenzhen">深圳</option>
+				<option value="handan">邯郸</option>
+				</select>
+			</div>
+			<div>
+				<label for="message">留言</label>
+				<textarea name="user_massage" id="message" cols="20" rows="5"></textarea>
+			</div>
+			<div>
+				<input type="submit" value="提交" />
+				<input type="reset" value="重置">
+			</div>
+		</form>
+	</body>
+</html>
